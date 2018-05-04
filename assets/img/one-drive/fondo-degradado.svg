@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1455 400">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.835;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#009448"/>
+      <stop offset="1" stop-color="#96ca55"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_145" data-name="Rectangle 145" class="cls-1" width="1455" height="400" transform="translate(1455 400) rotate(180)"/>
+</svg>
