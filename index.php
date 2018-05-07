@@ -70,27 +70,30 @@
           <img src="assets/img/beneficios-responsive.svg" alt="beneficios-responsive">
           <div class="c-beneficios">
             <div class="beneficio-item">
-                <img src="assets/img/asesoria.svg" alt="">
+                <img src="assets/img/asesoria.svg" alt="asesoria">
                 <div>
                     <h6 class="fs22 robotoCR green56">Asesoría / Calidad</h6>
                     <span class="fs14 robotoR gray70"> Optimizamos tu presupuesto, con ecotecnologías certificadas</span>
                 </div>
             </div>
             <div class="beneficio-item">
-                <img src="assets/img/entrega-inmediata.svg" alt="">
+                <img src="assets/img/entrega-inmediata.svg" alt="entrega-inmediata">
                 <div>
                     <h6 class="fs22 robotoCR green56">Entrega e Instalación Inmediata</h6>
                     <span class="fs14 robotoR gray70">En 8 días, tendrás tus ecotecnologías instaladas en tu hogar o negocio</span>
                 </div>
             </div>
             <div class="beneficio-item">
-                <img src="assets/img/paga-menos.svg" alt="">
+                <img src="assets/img/paga-menos.svg" alt="paga-menos">
                 <div>
                     <h6 class="fs22 robotoCR green56">Paga Menos</h6>
                     <span class="fs14 robotoR gray70">Ahorra en todos tus pagos mensuales</span>
                 </div>
             </div>
           </div>
+      </div>
+      <div class="c-action">
+          <img src="" alt="">
       </div>
     </div>
 
