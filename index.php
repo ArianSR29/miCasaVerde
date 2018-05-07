@@ -92,11 +92,41 @@
             </div>
           </div>
       </div>
+      <!--Imcorpora Ecotecnologías de calidad-->
+      <div class="c-calidad-main">
+        <div class="c-logo-mcv">
+          <img src="assets/img/one-drive/logo-mi-casa-blanco.svg" alt="">
+        </div>
+        <div class="c-frase">
+          <span>¡Incorpora Ecotecnologías de Calidad!</span>
+        </div>
+        <div class="c-button-info">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Deseo más información</button>
+        </div>
+      </div>
+      <!--Imcorpora Ecotecnologías de calidad-->
       <div class="c-action">
           <img src="" alt="">
       </div>
     </div>
-
+    <!--Footer-->
+    <div class="c-footer-main">
+      <div class="c-footer-img">
+        <img src="assets/img/logo-mi-casa.svg" alt="">
+      </div>
+      <div class="c-texto-1">
+        <span>Somos una empresa dedicada a la comercialización de ecotecnologías</span>
+      </div>
+      <div class="c-texto-2">
+        <span>Ofrecemos soluciones para que ahorres dinero, gracias a las ecotecnologías certificadas y eficientes en el consumo de energía, agua y gas</span>
+      </div>
+    </div>
+    <!--Footer-->
+    <!--copyRight-->
+    <div class="c-copyright">
+      <img src="assets/img/copy.svg"" alt="">
+       <span>2018 Mi Casa Verde</span>
+    </div>
     <script src="assets/libs/jQuery/jQuery-3-3-1.min.js"></script>
     <script src="assets/libs/mdl/material.js"></script>
     <script src="assets/js/data-send.js"></script>
