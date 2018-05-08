@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/miCasaVerdeGracias.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-solid.css">
+    <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-regular.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-brands.css">
     <link rel="stylesheet" href="assets/libs/mdl/material.css">
   </head>
@@ -31,12 +32,11 @@
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Regresar</button>
       </div>
       <div class="c-info">
-          <a class="info" href="http://www.gasticom.mx/quienes_somos.html" >Más información</a>
+          <a class="info" href="https://www.gasticom.mx/quienes_somos.html" >Más información</a>
         </div>
+        <!--copyRight-->
     </div>
-    <!--copyRight-->
-    <div class="c-copyright">
-      <img src="assets/img/copy.svg" alt="">
+       <i class="far fa-copyright"></i>
        <span>2018 Mi Casa Verde</span>
     </div>
     <script src="assets/libs/mdl/material.js"></script>
