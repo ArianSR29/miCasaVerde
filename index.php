@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-regular.css">
         <link rel="stylesheet" href="assets/libs/mdl/material.css">
     </head>
-    
+
     <body>
         <div class="main-section">
             <!-- SECCION DEL TOP -->
@@ -197,7 +197,7 @@
                 <div class="c-comp-title">
                     <span class="fs30 green56 robotoCB">
                         Productos más comprados</span></div>
-                <div class="c-options">
+                <div class="c-options robotoR">
                     <input type="radio" name="comprado-sel" id="rd-populares">
                     <label for="rd-populares">Más populares</label>
                     <input type="radio" name="comprado-sel" id="rd-agua">
