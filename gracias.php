@@ -22,10 +22,10 @@
       <div class="c-img">
         <img src="assets/img/one-drive/agradecimiento/check-responsive.svg" alt="">
       </div>
-      <div class="c-gracias-text1">
+      <div class="c-gracias-text1 green67 robotoCB fs28">
         <span>¡Gracias por contactarnos José Antonio!</span>
       </div>
-      <div class="c-gracias-text2">
+      <div class="c-gracias-text2 gray70 fs14 robotoCR">
         <span>Hemos recibido su mensaje, y nos pondremos en contacto lo antes posible.</span>
       </div>
       <div class="c-button-gracias">
