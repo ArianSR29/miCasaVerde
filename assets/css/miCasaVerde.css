@@ -117,7 +117,7 @@ img {
 @media only screen and (min-width: 320px) {
     .c-top {
         width: 100%;
-        background-image: url("../img/menu-responsive.png");
+        background-image: url("../img/pleca-desktop.svg");
         background-position: center;
         background-size: cover;
         position: fixed;
@@ -125,6 +125,7 @@ img {
         align-items: center;
         padding: 5px 0 30px;
         z-index: 100;
+        filter: drop-shadow(5px 5px 10px #444);
     }
     .mail-logo {
         width: 30%;
@@ -531,7 +532,18 @@ img {
     .c-info-form button {
         margin: 10px auto;
     }
+    .c-main{
+        padding-top: 15%!important;
+    }
 }
-@media only screen and (min-width: 1200px) {}
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1200px) {
+    .c-icons{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .c-icons{
+        width: 45%;
+    }
+}
 @media only screen and (min-width: 1920px) {}
