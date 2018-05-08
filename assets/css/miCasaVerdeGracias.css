@@ -1,0 +1,191 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: RobotoCondensed-Bold;
+  src: url('../fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+  font-family: RobotoCondensed-Regular;
+  src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+.robotoB {
+  font-family: Roboto-Bold;
+}
+
+.robotoR {
+  font-family: Roboto-Regular;
+}
+
+.robotoCB {
+  font-family: RobotoCondensed-Bold;
+}
+
+.robotoCR {
+  font-family: RobotoCondensed-Regular;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a, h1, h2, h3, h4, h5, h6, label, li, object, ol, p, span, tbody, td, th, tr, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+/*------------------------------------------------R E S P O N S I V E------------------------------------------------*/
+
+@media only screen and ( min-width: 1920px) {}
+
+@media only screen and ( min-width: 1439px) {}
+
+@media only screen and ( min-width: 1201px) {}
+
+@media only screen and ( min-width: 1025px) {}
+
+/* ----------------------------------------CAMBIO------------------------------ */
+
+@media only screen and ( min-width: 801px) {}
+
+/* ----------------------------------------CAMBIO DEL TAMAÑO DE FUENTES------------------------------ */
+
+@media only screen and ( min-width: 680px) {}
+
+@media only screen and ( min-width: 479px) {}
+
+@media only screen and ( min-width: 380px) {}
+
+@media only screen and ( min-width: 320px) {
+  .c-top {
+    width: 100%;
+    background-image: url('../img/menu-responsive.png');
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 30px 0px;
+    z-index: 100;
+    text-align: center;
+  }
+  .mdl-button {
+    text-transform: none !important;
+    font-size: 20px !important;
+    font-family: Roboto-Bold;
+    border-radius: 5px !important;
+    padding: 0px 30px !important;
+    height: 45px !important;
+  }
+  .mdl-button--raised {
+    box-shadow: none !important;
+  }
+  .mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.info-btn {
+    background-color: #82CBD6 !important;
+    color: #fff !important;
+  }
+  .mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.info-btn:hover {
+    background-color: #fff !important;
+    border: solid 3px #82CBD6 !important;
+  }
+  .mail-logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .mail-logo img{
+    width: 150px;
+    height: 65px;
+  }
+  .c-info {
+  width: 30%;
+  margin: 0 auto 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.info {
+  color: #2FA766;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Roboto-Bold;
+}
+.c-main-gracias{
+  width: 100%;
+  background-image: url('../img/one-drive/agradecimiento/plantas-responsive.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 145% 100%;
+  padding-top: 125px;
+  text-align: center;
+}
+.c-img{
+
+  width: 100%;
+}
+.c-img img{
+  width: 72px;
+  height: 72px;
+}
+.c-gracias-text1{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 28px;
+  font-family: RobotoCondensed-Bold;
+  color: #35A967;
+  line-height: 30px;
+}
+.c-gracias-text2{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: RobotoCondensed-Regular;
+  color: #707070;
+  line-height: 20px;
+}
+.c-button-gracias{
+width: 90%;
+margin: 0 auto;
+}
+
+  .c-copyright {
+    width: 100%;
+    background: #2FA766;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto-Regular;
+    vertical-align: middle;
+    line-height: 40px;
+  }
+  .c-copyright img {
+    width: 14px;
+    height: 14px;
+  }
+}

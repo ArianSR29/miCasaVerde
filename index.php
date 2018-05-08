@@ -124,7 +124,7 @@
     <!--Footer-->
     <!--copyRight-->
     <div class="c-copyright">
-      <img src="assets/img/copy.svg"" alt="">
+      <img src="assets/img/copy.svg" alt="">
        <span>2018 Mi Casa Verde</span>
     </div>
     <script src="assets/libs/jQuery/jQuery-3-3-1.min.js"></script>
