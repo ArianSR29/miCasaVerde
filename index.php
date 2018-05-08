@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-regular.css">
         <link rel="stylesheet" href="assets/libs/mdl/material.css">
     </head>
+    
     <body>
         <div class="main-section">
             <!-- SECCION DEL TOP -->
