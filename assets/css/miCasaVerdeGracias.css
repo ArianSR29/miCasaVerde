@@ -34,6 +34,46 @@
   font-family: RobotoCondensed-Regular;
 }
 
+.fs14 {
+  font-size: 14px;
+}
+
+.fs22 {
+  font-size: 22px;
+}
+
+.fs28 {
+  font-size: 28px;
+}
+
+.fs30 {
+  font-size: 30px;
+}
+
+.white {
+  color: #fff;
+}
+
+.green3A {
+  color: #17713a;
+}
+
+.green56 {
+  color: #15A556;
+}
+
+.gray70 {
+  color: #707070
+}
+
+.green66 {
+  color: #2FA766;
+}
+
+.green67 {
+  color: #35A967;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -109,83 +149,67 @@ img {
   .mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.info-btn {
     background-color: #82CBD6 !important;
     color: #fff !important;
+    width: 100%;
   }
   .mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.info-btn:hover {
     background-color: #fff !important;
     border: solid 3px #82CBD6 !important;
+    color: #82CBD6 !important;
   }
   .mail-logo {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
   }
-  .mail-logo img{
-    width: 150px;
-    height: 65px;
+  .mail-logo img {
+  width: 50%;
   }
   .c-info {
-  width: 30%;
-  margin: 0 auto 30px;
-  align-items: center;
-  text-align: center;
-}
-
-.info {
-  color: #2FA766;
-  font-size: 14px;
-  text-decoration: underline;
-  cursor: pointer;
-  font-family: Roboto-Bold;
-}
-.c-main-gracias{
-  width: 100%;
-  background-image: url('../img/one-drive/agradecimiento/plantas-responsive.svg');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 145% 100%;
-  padding-top: 125px;
-  text-align: center;
-}
-.c-img{
-
-  width: 100%;
-}
-.c-img img{
-  width: 72px;
-  height: 72px;
-}
-.c-gracias-text1{
-  width: 90%;
-  margin: 0 auto;
-  font-size: 28px;
-  font-family: RobotoCondensed-Bold;
-  color: #35A967;
-  line-height: 30px;
-}
-.c-gracias-text2{
-  width: 90%;
-  margin: 0 auto;
-  font-size: 14px;
-  font-family: RobotoCondensed-Regular;
-  color: #707070;
-  line-height: 20px;
-}
-.c-button-gracias{
-width: 90%;
-margin: 0 auto;
-}
-
+    width: 50%;
+    margin: 15px auto 0px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 175px;
+  }
+  .info {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .c-main-gracias {
+    width: 100%;
+    background-image: url('../img/one-drive/agradecimiento/plantas-responsive.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 135% 100%;
+    padding-top: 125px;
+    text-align: center;
+    background-position-y: 230px;
+  }
+  .c-img {
+    width: 25%;
+    margin: 0 auto 20px;
+  }
+  .c-img img {
+    width: 100%;
+  }
+  .c-gracias-text1 {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 30px;
+  }
+  .c-gracias-text2 {
+    width: 80%;
+    margin: 20px auto;
+    line-height: 20px;
+  }
+  .c-button-gracias {
+    width: 85%;
+    margin: 0 auto;
+  }
   .c-copyright {
     width: 100%;
     background: #2FA766;
     text-align: center;
-    color: #fff;
-    font-size: 14px;
-    font-family: Roboto-Regular;
     vertical-align: middle;
     line-height: 40px;
-  }
-  .c-copyright img {
-    width: 14px;
-    height: 14px;
   }
 }
