@@ -403,6 +403,9 @@ img {
     }
 }
 @media only screen and (min-width: 800px) {
+    .c-main h1{
+      font-size: 53px;
+    }
     .c-calc-form h5 {
         font-size: 22px;
     }
@@ -433,17 +436,19 @@ img {
     .mdl-textfield__label {
         font-size: 16px !important;
     }
-
     .mdl-textfield--floating-label {
         font-size: 16px !important;
     }
     .mdl-button {
         font-size: 24px !important;
     }
+<<<<<<< HEAD
+=======
     .c-main h1{
         font-size: 53px;
         padding: 0px 125px;
     }
+>>>>>>> master
 }
 /* ----------------------------------------CAMBIO------------------------------ */
 @media only screen and (min-width: 1025px) {
@@ -555,4 +560,6 @@ img {
         padding: 0px 340px;
     }
 }
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1440px) {}
 @media only screen and (min-width: 1920px) {}

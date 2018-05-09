@@ -2,14 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Mi casa verde | LP</title>
+    <title>Mi casa verde</title>
 
     <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/miCasaVerdeGracias.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-solid.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-regular.css">
-    <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-brands.css">
     <link rel="stylesheet" href="assets/libs/mdl/material.css">
   </head>
   <body>
@@ -32,13 +30,13 @@
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Regresar</button>
       </div>
       <div class="c-info">
-          <a class="info" href="https://www.gasticom.mx/quienes_somos.html" >Más información</a>
+          <a class="info green66 robotoB" href="https://www.gasticom.mx/quienes_somos.html" >Más información</a>
         </div>
         <!--copyRight-->
-    </div>
-       <i class="far fa-copyright"></i>
-       <span>2018 Mi Casa Verde</span>
-    </div>
+        <div class="c-copyright">
+            <i class="far fa-copyright white"></i>
+            <span class="white fs14 robotoR">2018 Mi Casa Verde</span>
+        </div>
     <script src="assets/libs/mdl/material.js"></script>
   </body>
 </html>
