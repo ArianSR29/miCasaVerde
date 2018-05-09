@@ -15,6 +15,7 @@
     </head>
 
     <body>
+    <div id="res"></div>    
         <div class="main-section">
             <!-- SECCION DEL TOP -->
             <div class="c-top">
@@ -41,25 +42,26 @@
                     <div class="c-img"><img src="assets/img/home-complete.svg" alt="home-complete"></div>
                     <div class="c-calc-form">
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
-                        <form action="">
+                        <form action="" method="post" id="form-calcular">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <input
                                     class="mdl-textfield__input"
                                     type="text"
                                     id="tb_nombre"
+                                    name="tb_nombre"
                                     require="require">
                                 <label class="mdl-textfield__label" for="tb_nombre">Nombre</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="main" id="tb_main" require="require">
+                                <input class="mdl-textfield__input" type="main" id="tb_main" name="tb_correo" require="require">
                                 <label class="mdl-textfield__label" for="tb_main">Correo electrónico</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="tel" id="tb_tel">
+                                <input class="mdl-textfield__input" type="tel" name="tb_tel" id="tb_tel">
                                 <label class="mdl-textfield__label" for="tb_nombre">Teléfono (opcional)</label>
                             </div>
                             <button
-                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Quiero calcular mi ahorro</button>
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular">Quiero calcular mi ahorro</button>
                         </form>
                         <div class="c-message">
                             <span class="fs16 robotoR green3A">Convierte tu Casa Verde, cambia productos de
