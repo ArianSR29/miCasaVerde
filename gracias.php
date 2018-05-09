@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Mi casa verde | LP</title>
+    <title>Mi casa verde</title>
 
     <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/miCasaVerdeGracias.css">
