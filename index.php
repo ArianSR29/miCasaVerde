@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,12 +14,12 @@
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-regular.css">
         <link rel="stylesheet" href="assets/libs/mdl/material.css">
     </head>
-    
+
     <body>
-    <div id="res"></div>    
         <div class="main-section">
             <!-- SECCION DEL TOP -->
             <div class="c-top">
+                <span id="res">0</span>
                 <img src="assets/img/logo-mi-casa.svg" class="mail-logo" alt="logo-mi-casa">
                 <div class="c-icons">
                     <div class="top-icon">
@@ -42,26 +43,25 @@
                     <div class="c-img"><img src="assets/img/home-complete.svg" alt="home-complete"></div>
                     <div class="c-calc-form">
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
-                        <form action="" method="post" id="form-calcular">
+                        <form action="" id="form-calcular">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <input
                                     class="mdl-textfield__input"
                                     type="text"
-                                    id="tb_nombre"
-                                    name="tb_nombre"
+                                    id="tb-nombre"
+                                    name="tb-nombre"
                                     require="require">
                                 <label class="mdl-textfield__label" for="tb_nombre">Nombre</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="main" id="tb_main" name="tb_correo" require="require">
-                                <label class="mdl-textfield__label" for="tb_main">Correo electrónico</label>
+                                <input class="mdl-textfield__input" type="emain" id="tb-mail" name="tb-correo" require="require">
+                                <label class="mdl-textfield__label" for="tb-main">Correo electrónico</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="tel" name="tb_tel" id="tb_tel">
+                                <input class="mdl-textfield__input" type="tel" name="tb-tel" id="tb-tel">
                                 <label class="mdl-textfield__label" for="tb_nombre">Teléfono (opcional)</label>
                             </div>
-                            <button
-                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular">Quiero calcular mi ahorro</button>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular">Quiero calcular mi ahorro</button>
                         </form>
                         <div class="c-message">
                             <span class="fs16 robotoR green3A">Convierte tu Casa Verde, cambia productos de
@@ -92,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <!-- DESTOP SECCION INICIO-->
+            <!--------------------------- DESTOP SECCION INICIO ------------------------------>
             <div class="c-main desktop">
                 <h1 class="robotoCR fs28 white">DISMINUYE
                     <span class="green3A robotoCB">70%</span>
@@ -104,25 +104,25 @@
                     <div class="c-img"><img src="assets/img/home-complete.svg" alt="home-complete"></div>
                     <div class="c-calc-form">
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
-                        <form action="">
+                        <form id="form-calcular2">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <input
                                     class="mdl-textfield__input"
                                     type="text"
-                                    id="tb_nombre"
+                                    id="tb-nombre"
+                                    name="tb-nombre"
                                     require="require">
-                                <label class="mdl-textfield__label" for="tb_nombre">Nombre</label>
+                                <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="main" id="tb_main" require="require">
-                                <label class="mdl-textfield__label" for="tb_main">Correo electrónico</label>
+                                <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-correo" require="require">
+                                <label class="mdl-textfield__label" for="tb-main">Correo electrónico</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="tel" id="tb_tel">
-                                <label class="mdl-textfield__label" for="tb_nombre">Teléfono (opcional)</label>
+                                <input class="mdl-textfield__input" type="tel" id="tb-tel" name="tb-tel">
+                                <label class="mdl-textfield__label" for="tb-nombre">Teléfono (opcional)</label>
                             </div>
-                            <button
-                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Quiero calcular mi ahorro</button>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular2">Quiero calcular mi ahorro</button>
                         </form>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                             <label class="mdl-textfield__label" for="tb_nombre">Nombre</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="main" id="tb_main" require="require">
+                            <input class="mdl-textfield__input" type="email" id="tb_main" require="require">
                             <label class="mdl-textfield__label" for="tb_main">Correo electrónico</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -199,7 +199,7 @@
                 <div class="c-comp-title">
                     <span class="fs30 green56 robotoCB">
                         Productos más comprados</span></div>
-                <div class="c-options">
+                <div class="c-options robotoR">
                     <input type="radio" name="comprado-sel" id="rd-populares">
                     <label for="rd-populares">Más populares</label>
                     <input type="radio" name="comprado-sel" id="rd-agua">
