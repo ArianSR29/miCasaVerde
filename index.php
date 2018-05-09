@@ -155,7 +155,7 @@
             <!-- DESTOP SECCION FIN -->
             <div class="c-beneficios-main">
                 <img
-                    src="assets/img/beneficios-responsive.svg"
+                    src="assets/img/beneficios.svg"
                     class="beneficios-title"
                     alt="beneficios-responsive">
                 <div class="c-beneficios">

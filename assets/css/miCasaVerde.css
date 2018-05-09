@@ -179,7 +179,7 @@ img {
     width: 90%;
   }
   .c-calc-form h5 {
-    padding: 0 35px;
+    padding: 0px 35px;
   }
   /* MDL Config */
   .mdl-textfield {
@@ -262,6 +262,7 @@ img {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    text-align: left;
   }
   .beneficio-item {
     width: 100%;
@@ -291,11 +292,11 @@ img {
   .c-comprados-main {
     width: 100%;
     background-color: #fff;
-    padding: 20px 0;
+    padding: 30px 0 20px;
     text-align: center;
   }
   .c-options {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -303,7 +304,7 @@ img {
   }
   .c-comprados-main label {
     font-size: 14px;
-    padding: 10px 5px;
+    padding: 5px 5px;
     background: #6BBC6B;
     border-radius: 5px;
     color: #fff;
@@ -322,13 +323,13 @@ img {
   .c-comp-title {
     text-align: center;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
   }
   .marcas-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
   }
   .marcas-items img {
@@ -343,7 +344,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    padding: 20px 0;
+    padding: 10px 0 20px;
   }
   .c-last-desc img {
     width: 75%;
@@ -385,6 +386,13 @@ img {
   }
   .c-comp-title span {
     line-height: 39px;
+  }
+  .beneficios-title {
+    width: 35%;
+    padding-bottom: 30px;
+  }
+  .c-beneficios-main{
+    text-align: center;
   }
 }
 
@@ -429,6 +437,9 @@ img {
   }
   .c-message {
     padding: 0 110px;
+  }
+  .beneficios-title {
+    width: 20%;
   }
 }
 
@@ -480,6 +491,8 @@ img {
   .c-message {
     padding: 0 60px;
   }
+  .beneficios-title {
+  }
 }
 
 /* ----------------------------------------CAMBIO------------------------------ */
@@ -507,7 +520,7 @@ img {
     margin: 15px 0;
   }
   .beneficios-title {
-    width: 50%;
+    width: 12%;
     padding-bottom: 40px;
   }
   .c-comprados-main label {
@@ -580,6 +593,12 @@ img {
   }
   .c-message {
     padding: 0 40px;
+  }
+  .beneficio-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 0px;
+    align-self: center;
   }
 }
 
