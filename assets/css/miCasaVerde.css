@@ -126,7 +126,7 @@ img {
   }
   .mail-logo {
     width: 30%;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   .top-icon {
     border-radius: 100%;
@@ -184,12 +184,12 @@ img {
   /* MDL Config */
   .mdl-textfield {
     width: 80% !important;
-    padding: 15px 0 !important;
+    padding: 25px 0 15px !important;
   }
   .mdl-textfield__input {
     background: #fff !important;
     border-radius: 5px;
-    padding: 5px 0 !important;
+    padding: 5px 0px 5px 10px !important;
     color: #848484 !important;
     font-size: 14px !important;
     font-family: Roboto-Regular;
@@ -199,10 +199,17 @@ img {
     color: #848484 !important;
     font-size: 14px !important;
     font-family: Roboto-Regular;
+
+    top: 40px !important;
   }
+   .mdl-textfield__input{
+     line-height: 40px !important;
+   }
+
   .mdl-textfield__label::after {
     bottom: 15px !important;
-    background-color: #53b84a !important;
+    /*background-color: #53b84a !important;*/
+    background-color: rgba(255, 255, 255, 0) !important;
   }
   .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.is-focused .mdl-textfield__label {
     top: 0 !important;
@@ -225,6 +232,7 @@ img {
   .mdl-button--accent.mdl-button--accent.mdl-button--raised {
     background-color: #F89C4D !important;
     margin-top: 7px;
+    width: 80%;
   }
   .mdl-button--raised {
     box-shadow: none !important;
@@ -296,7 +304,7 @@ img {
     text-align: center;
   }
   .c-options {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -329,7 +337,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 70%;
+    width: 95%;
     margin: 0 auto;
   }
   .marcas-items img {
@@ -404,6 +412,9 @@ img {
 
   .c-main h1 {
     padding: 0px 80px;
+  }
+  .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    width: 300px;
   }
 
 }
@@ -491,7 +502,8 @@ img {
   .c-message {
     padding: 0 60px;
   }
-  .beneficios-title {
+  .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    width: 350px;
   }
 }
 
@@ -608,7 +620,7 @@ img {
   }
   /*Modificaciones por Isra*/
   .c-main h1 {
-    padding: 0px 385px;
+    padding: 0px 377px;
   }
   .c-message {
     padding: 0 175px;
