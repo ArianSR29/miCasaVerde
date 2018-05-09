@@ -440,7 +440,10 @@ img {
     .mdl-button {
         font-size: 24px !important;
     }
-
+    .c-main h1{
+        font-size: 53px;
+        padding: 0px 125px;
+    }
 }
 /* ----------------------------------------CAMBIO------------------------------ */
 @media only screen and (min-width: 1025px) {
@@ -540,10 +543,16 @@ img {
     .c-icons{
         width: 50%;
     }
+    .c-main h1 {
+        padding: 0px 200px;
+    }
 }
 @media only screen and (min-width: 1440px) {
     .c-icons{
         width: 45%;
+    }
+    .c-main h1 {
+        padding: 0px 340px;
     }
 }
 @media only screen and (min-width: 1920px) {}
