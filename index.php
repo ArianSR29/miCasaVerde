@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Mi casa verde | LP</title>
-        <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
 
         <link rel="stylesheet" href="assets/css/miCasaVerde.css">
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fontawesome.css">
@@ -37,7 +36,7 @@
                 </div>
             </div>
             <!-- SECCION PRINCIPAL PARA EL DEGARDADO -->
-            <div class="c-main mobile"> 
+            <div class="c-main mobile">
                 <h1 class="robotoCR fs28 white">DISMINUYE
                     <span class="green3A robotoCB">70%</span>
                     TUS PAGOS DE AGUA, LUZ Y GAS</h1>
@@ -85,7 +84,7 @@
                                 </div>
                                 <button
                                     class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Deseo más información</button>
-                            </form>                         
+                            </form>
                         </div>
                     </div>
                 </div>
