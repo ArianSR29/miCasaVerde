@@ -20,7 +20,7 @@
         <div class="main-section">
             <!-- SECCION DEL TOP -->
             <div class="c-top">
-                <span id="res">0</span>
+                <!-- <span id="res">0</span> -->
                 <img src="assets/img/logo-mi-casa.svg" class="mail-logo" alt="logo-mi-casa">
                 <div class="c-icons">
                     <div class="top-icon">
@@ -46,21 +46,16 @@
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
                         <form action="" id="form-calcular">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input
-                                    class="mdl-textfield__input"
-                                    type="text"
-                                    id="tb-nombre"
-                                    name="tb-nombre"
-                                    require="require">
-                                <label class="mdl-textfield__label" for="tb_nombre">Nombre</label>
+                                <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre" require="require">
+                                <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="emain" id="tb-mail" name="tb-correo" require="require">
-                                <label class="mdl-textfield__label" for="tb-main">Correo electrónico</label>
+                                <input class="mdl-textfield__input" type="emain" id="tb-mail" name="tb-mail" require="require">
+                                <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <input class="mdl-textfield__input" type="tel" name="tb-tel" id="tb-tel">
-                                <label class="mdl-textfield__label" for="tb_nombre">Teléfono (opcional)</label>
+                                <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
                             </div>
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular">Quiero calcular mi ahorro</button>
                         </form>
@@ -80,12 +75,12 @@
                                     <label class="mdl-textfield__label" for="tb_nombre">Nombre</label>
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="main" id="tb_main" require="require">
-                                    <label class="mdl-textfield__label" for="tb_main">Correo electrónico</label>
+                                    <input class="mdl-textfield__input" type="email" id="tb-mail" require="require">
+                                    <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="tel" id="tb_tel">
-                                    <label class="mdl-textfield__label" for="tb_nombre">Teléfono (opcional)</label>
+                                    <input class="mdl-textfield__input" type="tel" id="tb-tel">
+                                    <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
                                 </div>
                                 <button
                                     class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Deseo más información</button>
@@ -107,21 +102,16 @@
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
                         <form id="form-calcular2">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input
-                                    class="mdl-textfield__input"
-                                    type="text"
-                                    id="tb-nombre"
-                                    name="tb-nombre"
-                                    require="require">
+                                <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre" require="require">
                                 <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-correo" require="require">
-                                <label class="mdl-textfield__label" for="tb-main">Correo electrónico</label>
+                                <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-mail" require="require">
+                                <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <input class="mdl-textfield__input" type="tel" id="tb-tel" name="tb-tel">
-                                <label class="mdl-textfield__label" for="tb-nombre">Teléfono (opcional)</label>
+                                <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
                             </div>
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular2">Quiero calcular mi ahorro</button>
                         </form>
@@ -132,20 +122,16 @@
                     <h5 class="fs20 robotoB white">Reduce al 70% tu presupuesto con Mi Casa Verde</h5>
                     <form action="">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input
-                                class="mdl-textfield__input"
-                                type="text"
-                                id="tb_nombre"
-                                require="require">
-                            <label class="mdl-textfield__label" for="tb_nombre">Nombre</label>
+                            <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre" require="require">
+                            <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="email" id="tb_main" require="require">
-                            <label class="mdl-textfield__label" for="tb_main">Correo electrónico</label>
+                            <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-mail" require="require">
+                            <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="tel" id="tb_tel">
-                            <label class="mdl-textfield__label" for="tb_nombre">Teléfono (opcional)</label>
+                            <input class="mdl-textfield__input" type="tel" id="tb-tel">
+                            <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
                         </div>
                         <button
                             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Deseo más información</button>
