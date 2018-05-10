@@ -1,4 +1,4 @@
-<?php 
+<?php
 	$nombre=$_POST['tb-nombre'];
 	$corrreo=$_POST['tb-mail'];
 	$telefono=$_POST['tb-tel'];

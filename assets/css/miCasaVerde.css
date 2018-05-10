@@ -129,6 +129,7 @@ img {
 /*------------------------------------------------R E S P O N S I V E------------------------------------------------*/
 
 @media only screen and (min-width: 320px) {
+<<<<<<< HEAD
     .c-top {
         width: 100%;
         background-image: url("../img/pleca-desktop.svg");
@@ -217,6 +218,95 @@ img {
         color: #848484 !important;
         font-size: 14px !important;
         font-family: Roboto-Regular;
+=======
+  .c-top {
+    width: 100%;
+    background-image: url("../img/pleca-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 6px 0 30px;
+    z-index: 100;
+    filter: drop-shadow(5px 5px 10px #444);
+  }
+  .mail-logo {
+    width: 30%;
+    margin-left: 40px;
+  }
+  .top-icon {
+    border-radius: 100%;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-icons div:nth-child(1) {
+    background: #51B25F;
+    font-size: 35px;
+  }
+  .c-icons div:nth-child(2) {
+    background: #82CBD6;
+    font-size: 25px;
+    transform: rotate(90deg);
+  }
+  .c-icons {
+    position: absolute;
+    width: 35%;
+    display: flex;
+    right: 0;
+    justify-content: space-around;
+  }
+  .c-main {
+    width: 100%;
+    background: linear-gradient(to bottom right, #A9D477, #53b84a);
+    padding-bottom: 30px;
+    padding-top: 25%;
+    text-align: center;
+  }
+  .c-main-mobile h1 {
+    padding: 0 20px;
+  }
+  .c-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .c-calc-form, .c-img {
+    width: 100%;
+    text-align: center;
+  }
+  .c-img {
+    padding: 0px 0px 30px 0px;
+  }
+  .c-img img {
+    width: 97%;
+  }
+  .c-calc-form h5 {
+    padding: 0px 36px;
+  }
+  /* MDL Config */
+  .mdl-textfield {
+    width: 80% !important;
+    padding: 25px 0 10px !important;
+  }
+  .mdl-textfield__input {
+    background: #fff !important;
+    border-radius: 5px;
+    padding: 5px 0px 5px 10px !important;
+    color: #848484 !important;
+    font-size: 14px !important;
+    font-family: Roboto-Regular;
+  }
+  .mdl-textfield__label {
+    padding-left: 10px;
+    color: #848484 !important;
+    font-size: 14px !important;
+    font-family: Roboto-Regular;
+>>>>>>> Isra-mail
 
         top: 40px !important;
     }
@@ -422,6 +512,205 @@ img {
         text-align: center;
     }
 
+<<<<<<< HEAD
+=======
+  .mdl-textfield__label::after {
+    bottom: 15px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
+  .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.is-focused .mdl-textfield__label {
+    top: 0 !important;
+    color: #fff !important;
+    font-family: Roboto-Bold;
+  }
+  .mdl-button {
+    text-transform: none !important;
+    font-size: 20px !important;
+    font-family: Roboto-Bold;
+    border-radius: 5px !important;
+    padding: 0 30px !important;
+    height: 45px !important;
+  }
+  .mdl-button--accent.mdl-button--accent.mdl-button--raised:hover {
+    background-color: #fff !important;
+    color: #F89C4D;
+    border: solid 3px #F89C4D;
+  }
+  .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    background-color: #F89C4D !important;
+    margin-top: 20px;
+    width: 80%;
+  }
+  .mdl-button--raised {
+    box-shadow: none !important;
+  }
+  .mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.info-btn {
+    background-color: #FFDB17 !important;
+    color: #17713A !important;
+  }
+  .mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.info-btn:hover {
+    background-color: #fff !important;
+    border: solid 3px #FFDB17 !important;
+  }
+  /* Contenedor de mensaje */
+  .c-message {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .c-message span {
+    line-height: 22px;
+  }
+  /* Contenedor de formulario mas infrmación */
+  .c-info-form h3 {
+    padding: 0 20px;
+  }
+  /* contededor de beneficios */
+  .c-beneficios-main {
+    padding: 30px 0;
+    background: #fff;
+  }
+  .c-beneficios-main img {
+    text-align: center;
+  }
+  .c-beneficios {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .beneficio-item {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+  }
+  .beneficio-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+    align-self: center;
+  }
+  .c-calidad-main {
+    width: 100%;
+    background: linear-gradient(to right, #a3d170, #2ea766);
+    text-align: center;
+    padding: 30px 0;
+  }
+  .c-calidad-main img {
+    width: 35%;
+    margin: 0 auto 15px;
+  }
+  .c-frase {
+    width: 90%;
+    margin: 0 auto 10px;
+  }
+  .c-comprados-main {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 0 20px;
+    text-align: center;
+  }
+  .c-options {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .c-comprados-main label {
+    font-size: 14px;
+    padding: 5px 5px;
+    background: #6BBC6B;
+    border-radius: 5px;
+    color: #fff;
+    width: 40%;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .c-comprados-main input[type="radio"] {
+    display: none;
+  }
+  .c-comprados-main input[type="radio"]:checked+label {
+    background: #2DA666;
+    transition: all 500ms ease;
+  }
+  .c-comp-title {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+  .marcas-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .marcas-items img {
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+  }
+  .c-last-desc {
+    width: 82%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 10px 0 20px;
+  }
+  .c-last-desc img {
+    width: 75%;
+    margin: 0 auto 20px;
+  }
+  .c-last-desc span {
+    margin: 10px 0;
+    line-height: 21px;
+  }
+  .c-copyright {
+    width: 100%;
+    background: #2FA766;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+  }
+  .marcas-items img:nth-child(9) {
+    display: none;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .top-icon span {
+    display: none;
+  }
+  /*Modificaciones por Isra*/
+  .c-main h1 {
+    padding: 0 23px;
+  }
+  .c-info-form h5 {
+    padding: 15px 30px;
+    line-height: 25px;
+  }
+  .beneficio-item h6 {
+    margin-bottom: 10px;
+  }
+  .c-frase span {
+    line-height: 35px;
+  }
+  .c-comp-title span {
+    line-height: 39px;
+  }
+  .beneficios-title {
+    width: 35%;
+    padding-bottom: 30px;
+  }
+  .c-beneficios-main{
+    text-align: center;
+  }
+  
+>>>>>>> Isra-mail
 }
 
 @media only screen and (min-width: 380px) {}
@@ -478,9 +767,6 @@ img {
 @media only screen and (min-width: 800px) {
     .c-main h1 {
         font-size: 53px;
-    }
-    .c-calc-form h5 {
-        font-size: 22px;
     }
     .c-message span {
         font-size: 25px;
@@ -725,10 +1011,21 @@ img {
       height: 80px;
       margin: 35px;
   }
+<<<<<<< HEAD
   .c-calc-form h5 {
     text-align: left;
     padding: 0 190px 0 70px;
 }
+=======
+  .c-calc-form form{
+    width: 100%;
+    margin-left: -55px;
+  }
+  .c-calc-form{
+    width: 70%;
+    padding-top: 15px;
+  }
+>>>>>>> Isra-mail
 }
 
 @media only screen and (min-width: 1440px) {

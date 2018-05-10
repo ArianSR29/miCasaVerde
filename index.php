@@ -228,5 +228,6 @@
             <script src="assets/libs/jQuery/jQuery-3-3-1.min.js"></script>
             <script src="assets/libs/mdl/material.js"></script>
             <script src="assets/js/data-send.js"></script>
+            <script src="assets/js/insert.js"></script>
         </body>
     </html>

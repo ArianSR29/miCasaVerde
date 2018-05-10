@@ -27,7 +27,7 @@
         <span>Hemos recibido su mensaje, y nos pondremos en contacto lo antes posible.</span>
       </div>
       <div class="c-button-gracias">
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Regresar</button>
+        <a class="button-gracias">Regresar</a>
       </div>
       <div class="c-info">
           <a class="info green66 robotoB" href="https://www.gasticom.mx/quienes_somos.html" >Más información</a>
@@ -37,6 +37,9 @@
             <i class="far fa-copyright white"></i>
             <span class="white fs14 robotoR">2018 Mi Casa Verde</span>
         </div>
+<<<<<<< HEAD:assets/temps/gracias.php
     <script src="../libs/mdl/material.js"></script>
+=======
+>>>>>>> Isra-mail:gracias.php
   </body>
 </html>
