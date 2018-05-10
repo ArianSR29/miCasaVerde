@@ -41,7 +41,7 @@ $mail->addAddress('jaimeisraels.m@gmail.com');     // Add a recipient*/
 
     $mail->setFrom(utf8_decode($correo),utf8_decode($nombre));
     $mail->addAddress('info@micasaverde.mx');                 // Add a recipient
-    
+
     $mail->isHTML(true);                                     // Set email format to HTML
 
     $mail->Subject = utf8_decode($nombre). utf8_decode(" quiere calcular su ahorro.");
@@ -49,5 +49,11 @@ $mail->addAddress('jaimeisraels.m@gmail.com');     // Add a recipient*/
     $mail->Body    .= '<strong>Nombre: </strong>'                 . utf8_decode($nombre) ."<br>";
     $mail->Body    .= '<strong>Correo: </strong>'                 . $correo ."<br>";
     $mail->Body    .= utf8_decode("<strong>Teléfono: </strong>")  . utf8_decode($telefono) ."<br>";
+    $nombre= utf8_decode($nombre);
+    $telefono= utf8_decode($telefono);
+    if(!$mail->send()) {
+        echo $nombre.' tus datos no fueron enviados, intentalo de nuevo por favor.';
+        echo 'Mail error: ' . $mail->ErrorInfo;
+    }
 
 ?>

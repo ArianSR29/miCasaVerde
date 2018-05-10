@@ -228,9 +228,6 @@
             <script src="assets/libs/jQuery/jQuery-3-3-1.min.js"></script>
             <script src="assets/libs/mdl/material.js"></script>
             <script src="assets/js/data-send.js"></script>
-<<<<<<< HEAD
             <script src="assets/js/anclas.js"></script>
-=======
->>>>>>> 1d3d039ceb7d26303cb5e68702bd6f6c6c77a5fe
         </body>
     </html>
