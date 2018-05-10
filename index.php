@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Mi casa verde | LP</title>
+        <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
 
         <link rel="stylesheet" href="assets/css/miCasaVerde.css">
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fontawesome.css">
@@ -68,6 +69,7 @@
                                 tu hogar por electrodomesticos de bajo consumo y más</span></div>
                         <div class="c-info-form">
                             <h3 class="fs30 robotoCB green3A">¡Te ayudamos a calcular tu Ahorro!</h3>
+                            <h5 class="fs19 robotoB white">Reduce al 70% tu presupuesto con Mi Casa Verde</h5>
                             <form action="">
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                     <input
@@ -98,8 +100,7 @@
                     <span class="green3A robotoCB">70%</span>
                     TUS PAGOS DE AGUA, LUZ Y GAS</h1>
                 <div class="c-message">
-                    <span class="fs16 robotoR green3A">Convierte tu Casa Verde, cambia productos de
-                        tu hogar por electrodomesticos de bajo consumo y más</span></div>
+                    <span class="fs16 robotoR green3A">Convierte tu Casa VERDE, cambia productos de tu hogar por electrodomesticos de bajo consumo, paneles solares, LEDS y muchos más.</span></div>
                 <div class="c-banner">
                     <div class="c-img"><img src="assets/img/home-complete.svg" alt="home-complete"></div>
                     <div class="c-calc-form">
@@ -128,6 +129,7 @@
                 </div>
                 <div class="c-info-form">
                     <h3 class="fs30 robotoCB green3A">¡Te ayudamos a calcular tu Ahorro!</h3>
+                    <h5 class="fs20 robotoB white">Reduce al 70% tu presupuesto con Mi Casa Verde</h5>
                     <form action="">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input
@@ -153,7 +155,7 @@
             <!-- DESTOP SECCION FIN -->
             <div class="c-beneficios-main">
                 <img
-                    src="assets/img/beneficios-responsive.svg"
+                    src="assets/img/beneficios.svg"
                     class="beneficios-title"
                     alt="beneficios-responsive">
                 <div class="c-beneficios">
