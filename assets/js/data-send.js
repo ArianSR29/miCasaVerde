@@ -2,7 +2,7 @@ $(document).ready(function () {
 		$('#btn-calcular2').on("click",function(){
          alert("11");
             var datos=$('#form-calcular2').serialize();
-         alert("21");            
+         alert("21");
 			$.ajax({
 				url: "assets/clases/data-insert.php",
                 type:"POST",
@@ -40,5 +40,5 @@ $(document).ready(function () {
     //         });
     //     });
     //     console.log("Entrasete a Calcular 2")
-        
+
     });
