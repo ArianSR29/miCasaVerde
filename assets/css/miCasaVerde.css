@@ -698,6 +698,12 @@ img {
 .mdl-button--accent.mdl-button--accent.mdl-button--raised {
   width: 65%;
 }
+.c-button-info button{
+  width: 30%!important;
+}
+button#btn-info {
+  width: 30%;
+}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -725,6 +731,12 @@ img {
   .c-calc-form h5 {
     text-align: left;
     padding: 0 190px 0 70px;
+}
+.c-button-info button{
+  width: 25%!important;
+}
+button#btn-info {
+  width: 35%;
 }
 }
 @media only screen and (min-width: 1440px) {

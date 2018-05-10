@@ -37,7 +37,7 @@
                 </div>
             </div>
             <!-- SECCION PRINCIPAL PARA EL DEGARDADO -->
-            <div class="c-main mobile">
+            <div class="c-main mobile"> 
                 <h1 class="robotoCR fs28 white">DISMINUYE
                     <span class="green3A robotoCB">70%</span>
                     TUS PAGOS DE AGUA, LUZ Y GAS</h1>
@@ -63,7 +63,7 @@
                         <div class="c-message">
                             <span class="fs16 robotoR green3A">Convierte tu Casa Verde, cambia productos de
                                 tu hogar por electrodomesticos de bajo consumo y más</span></div>
-                        <div class="c-info-form">
+                                <div class="c-info-form">
                             <h3 class="fs30 robotoCB green3A">¡Te ayudamos a calcular tu Ahorro!</h3>
                             <h5 class="fs19 robotoB white">Reduce al 70% tu presupuesto con Mi Casa Verde</h5>
                             <form action="">
@@ -85,7 +85,7 @@
                                 </div>
                                 <button
                                     class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Deseo más información</button>
-                            </form>
+                            </form>                         
                         </div>
                     </div>
                 </div>
@@ -116,6 +116,7 @@
                             </div>
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular2">Quiero calcular mi ahorro</button>
                         </form>
+                        <div id="ancla-ahorro"></div>
                     </div>
                 </div>
                 <div class="c-info-form">
@@ -180,7 +181,7 @@
                 </div>
                 <div class="c-button-info">
                     <button
-                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Deseo más información</button>
+                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn" id="btn-info-ancla">Deseo más información</button>
                 </div>
             </div>
 
@@ -228,6 +229,6 @@
             <script src="assets/libs/jQuery/jQuery-3-3-1.min.js"></script>
             <script src="assets/libs/mdl/material.js"></script>
             <script src="assets/js/data-send.js"></script>
-            <script src="assets/js/insert.js"></script>
+            <script src="assets/js/anclas.js"></script>
         </body>
     </html>
