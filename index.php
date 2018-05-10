@@ -138,6 +138,7 @@
                         <button
                             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn" id="btn-info">Deseo más información</button>
                     </form>
+                    <div id="ancla-ahorro"></div>
                 </div>
             </div>
             <!-- DESTOP SECCION FIN -->
@@ -229,5 +230,6 @@
             <script src="assets/libs/jQuery/jQuery-3-3-1.min.js"></script>
             <script src="assets/libs/mdl/material.js"></script>
             <script src="assets/js/data-send.js"></script>
+            <script src="assets/js/anclas.js"></script>
         </body>
     </html>

@@ -1,6 +1,6 @@
 <?php
 //$conn = new mysqli('mysql.s466.sureserver.com', 'INTOuserMedium', 'INTOcom29', 'gasticom_LP_Registros');
-$mysqli = new mysqli('localhost', 'root', '', 'micasaverde');
+//$mysqli = new mysqli('localhost', 'root', 'root', 'micasaverde');
 
  $nombre       = @trim(stripslashes($_POST['tb-nombre']));
  $correo       = @trim(stripslashes($_POST['tb-mail']));
@@ -12,9 +12,6 @@ require_once('class.phpmaileroauthgoogle.php');
 require_once('class.phpmailer.php');
 require_once('PHPMailerAutoload.php');
 
-if(empty($_POST['tb-tel'])) {
-  $telefono="No se ingresó teléfono.";
-}
 /*$mail = new PHPMailer();
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
