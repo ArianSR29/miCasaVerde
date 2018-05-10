@@ -173,18 +173,18 @@ img {
     text-align: center;
   }
   .c-img {
-    padding: 40px 0 30px;
+    padding: 0px 0px 30px 0px;
   }
   .c-img img {
-    width: 90%;
+    width: 97%;
   }
   .c-calc-form h5 {
-    padding: 0px 35px;
+    padding: 0px 36px;
   }
   /* MDL Config */
   .mdl-textfield {
     width: 80% !important;
-    padding: 25px 0 15px !important;
+    padding: 25px 0 10px !important;
   }
   .mdl-textfield__input {
     background: #fff !important;
@@ -230,7 +230,7 @@ img {
   }
   .mdl-button--accent.mdl-button--accent.mdl-button--raised {
     background-color: #F89C4D !important;
-    margin-top: 7px;
+    margin-top: 20px;
     width: 80%;
   }
   .mdl-button--raised {
@@ -401,6 +401,7 @@ img {
   .c-beneficios-main{
     text-align: center;
   }
+  
 }
 
 @media only screen and (min-width: 380px) {}
@@ -457,9 +458,6 @@ img {
     .c-main h1{
       font-size: 53px;
     }
-    .c-calc-form h5 {
-        font-size: 22px;
-    }
     .c-message span {
         font-size: 25px;
     }
@@ -499,6 +497,8 @@ img {
   }
   .c-calc-form h5 {
     font-size: 22px;
+  text-align: left;
+  padding: 0px 100px 15px 0px;
   }
   .c-message span {
     font-size: 25px;
@@ -545,7 +545,7 @@ img {
     padding: 0 60px;
   }
   .mdl-button--accent.mdl-button--accent.mdl-button--raised {
-    width: 350px;
+    width: 444px;
   }
 }
 
@@ -666,6 +666,14 @@ img {
   }
   .c-message {
     padding: 0 175px;
+  }
+  .c-calc-form form{
+    width: 100%;
+    margin-left: -55px;
+  }
+  .c-calc-form{
+    width: 70%;
+    padding-top: 15px;
   }
 }
 

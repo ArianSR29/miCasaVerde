@@ -102,30 +102,10 @@ img {
 
 /*------------------------------------------------R E S P O N S I V E------------------------------------------------*/
 
-@media only screen and ( min-width: 1920px) {}
-
-@media only screen and ( min-width: 1439px) {}
-
-@media only screen and ( min-width: 1201px) {}
-
-@media only screen and ( min-width: 1025px) {}
-
-/* ----------------------------------------CAMBIO------------------------------ */
-
-@media only screen and ( min-width: 801px) {}
-
-/* ----------------------------------------CAMBIO DEL TAMAÑO DE FUENTES------------------------------ */
-
-@media only screen and ( min-width: 680px) {}
-
-@media only screen and ( min-width: 479px) {}
-
-@media only screen and ( min-width: 380px) {}
-
 @media only screen and ( min-width: 320px) {
   .c-top {
     width: 100%;
-    background-image: url('../img/menu-responsive.png');
+    background-image: url('../img/one-drive/menu.png');
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -133,33 +113,29 @@ img {
     z-index: 100;
     text-align: center;
   }
-  .mdl-button {
-    text-transform: none !important;
+  .button-gracias {
     font-size: 20px !important;
     font-family: Roboto-Bold;
-    border-radius: 5px !important;
-    padding: 0px 30px !important;
-    height: 45px !important;
-  }
-  .mdl-button--raised {
-    box-shadow: none !important;
-  }
-  .mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.info-btn {
-    background-color: #82CBD6 !important;
-    color: #fff !important;
+    border-radius: 7px;
+    line-height: 50px;
+    background-color: #82CBD6;
+    color: #fff;
     width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 12px 35%;
   }
-  .mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.info-btn:hover {
-    background-color: #fff !important;
-    border: solid 3px #82CBD6 !important;
-    color: #82CBD6 !important;
+  .button-gracias:hover {
+    background-color: #fff;
+    border: solid 3px #82CBD6;
+    color: #82CBD6;
   }
   .mail-logo {
     width: 80%;
     margin: 0 auto;
   }
   .mail-logo img {
-  width: 50%;
+    width: 50%;
   }
   .c-info {
     width: 50%;
@@ -210,4 +186,101 @@ img {
     vertical-align: middle;
     line-height: 40px;
   }
+}
+
+@media only screen and ( min-width: 380px) {}
+
+@media only screen and ( min-width: 479px) {}
+
+@media only screen and ( min-width: 680px) {
+  .mail-logo img {
+    width: 35%;
+  }
+  .c-info {
+    padding-bottom: 330px;
+  }
+  .c-img {
+    width: 25%;
+    margin: 0 auto 20px;
+  }
+  .button-gracias {
+    padding: 12px 115px;
+  }
+}
+
+/* ----------------------------------------CAMBIO DEL TAMAÑO DE FUENTES------------------------------ */
+
+@media only screen and ( min-width: 801px) {
+  .mail-logo img {
+    width: 30%;
+  }
+  .c-info {
+    padding-bottom: 300px;
+  }
+  .c-img {
+    width: 15%;
+    margin: 0 auto 20px;
+  }
+  .c-gracias-text1 span {
+    font-size: 48px;
+  }
+  .c-gracias-text2 span {
+    font-size: 26px;
+  }
+}
+
+/* ----------------------------------------CAMBIO------------------------------ */
+
+@media only screen and ( min-width: 1025px) {
+  .mail-logo img {
+    width: 25%;
+  }
+  .c-img {
+    width: 12%;
+  }
+  .c-main-gracias {
+    background-image: url('../img/one-drive/agradecimiento/plantas.svg');
+    background-size: 135% 100%;
+    background-position-y: 180px;
+  }
+}
+
+@media only screen and ( min-width: 1201px) {
+  .mail-logo img {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  .c-img {
+    width: 9%;
+  }
+  .c-main-gracias {
+    background-size: 100% 125%;
+    background-position-y: 90px;
+  }
+  .button-gracias {
+    padding: 12px 170px;
+  }
+}
+
+@media only screen and ( min-width: 1439px) {}
+
+@media only screen and ( min-width: 1920px) {
+  .mail-logo img {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  .c-img {
+    width: 10%;
+  }
+  .c-main-gracias {
+    background-size: 120% 145%;
+    background-position-y: 50px;
+    padding-top: 63px;
+  }
+  .button-gracias {
+    padding: 12px 170px;
+  }
+  .c-info {
+    padding-bottom: 600px;
+}
 }
