@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../css/miCasaVerdeGracias.css">
     <link rel="stylesheet" href="../libs/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="../libs/fontawesome/css/fa-regular.css">
-    <link rel="stylesheet" href="../libs/mdl/material.css">
   </head>
   <body>
     <div class="c-top">
@@ -37,9 +36,5 @@
             <i class="far fa-copyright white"></i>
             <span class="white fs14 robotoR">2018 Mi Casa Verde</span>
         </div>
-<<<<<<< HEAD:assets/temps/gracias.php
-    <script src="../libs/mdl/material.js"></script>
-=======
->>>>>>> Isra-mail:gracias.php
   </body>
 </html>
