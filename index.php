@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-brands.css">
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-regular.css">
         <link rel="stylesheet" href="assets/libs/mdl/material.css">
+        <link rel=icon href=favicon.svg sizes="any" type="image/svg+xml">
     </head>
 
     <body>
