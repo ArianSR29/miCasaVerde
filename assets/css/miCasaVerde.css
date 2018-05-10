@@ -469,9 +469,9 @@ img {
     .beneficios-title {
         width: 20%;
     }
-    .mdl-button{
-      font-size: 23px!important;
-      letter-spacing: 0px!important;
+    .mdl-button {
+        font-size: 23px!important;
+        letter-spacing: 0px!important;
     }
 }
 
@@ -672,39 +672,40 @@ img {
         margin-top: 20px;
     }
     .c-beneficios-main {
-      padding: 40px 0;
-  }
-  .c-calidad-main{
-    padding: 40px 0px;
-  }
-  .c-frase{
-    margin-top: 20px;
-  }
-  .marcas-items{
-    width: 90%;
-  }
-  .marcas-items img {
-    width: 100px;
-    height: 80px;
-    margin: 30px;
-}
-.c-calc-form h5 {
-  text-align: left;
-  padding: 0 30px 0 70px;
-}
-.mdl-textfield--floating-label {
-  width: 65%!important;
-}
-.mdl-button--accent.mdl-button--accent.mdl-button--raised {
-  width: 65%;
-}
-.c-button-info button{
-  width: 30%!important;
-}
-button#btn-info {
-  width: 30%;
-}
-}
+        padding: 40px 0;
+    }
+    .c-calidad-main{
+      padding: 40px 0px;
+    }
+    .c-frase{
+      margin-top: 20px;
+    }
+    .marcas-items{
+      width: 90%;
+    }
+    .marcas-items img {
+        width: 100px;
+        height: 80px;
+        margin: 30px;
+    }
+    .c-calc-form h5 {
+        text-align: left;
+        padding: 0 30px 0 70px;
+    }
+    .mdl-textfield--floating-label {
+        width: 65%!important;
+    }
+    .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+        width: 65%;
+    }
+    .c-button-info button{
+      width: 30%!important;
+    }
+    button#btn-info {
+      width: 30%;
+    }
+    }
+
 
 @media only screen and (min-width: 1200px) {
     .c-icons {
@@ -724,20 +725,20 @@ button#btn-info {
       width: 90%;
     }
     .marcas-items img {
-      width: 150px;
-      height: 80px;
-      margin: 35px;
-  }
-  .c-calc-form h5 {
-    text-align: left;
-    padding: 0 190px 0 70px;
-}
-.c-button-info button{
-  width: 25%!important;
-}
-button#btn-info {
-  width: 35%;
-}
+        width: 150px;
+        height: 80px;
+        margin: 35px;
+    }
+    .c-calc-form h5 {
+        text-align: left;
+        padding: 0 190px 0 70px;
+    }
+    .c-button-info button{
+      width: 25%!important;
+    }
+    button#btn-info {
+      width: 35%;
+    }
 }
 @media only screen and (min-width: 1440px) {
     .c-icons {
