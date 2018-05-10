@@ -120,7 +120,7 @@
                 <div class="c-info-form">
                     <h3 class="fs30 robotoCB green3A">¡Te ayudamos a calcular tu Ahorro!</h3>
                     <h5 class="fs20 robotoB white">Reduce al 70% tu presupuesto con Mi Casa Verde</h5>
-                    <form action="">
+                    <form id="form-info">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre" require="require">
                             <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
@@ -130,11 +130,11 @@
                             <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="tel" id="tb-tel">
+                            <input class="mdl-textfield__input" type="tel" id="tb-tel" name="tb-tel">
                             <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
                         </div>
                         <button
-                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Deseo más información</button>
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn" id="btn-info">Deseo más información</button>
                     </form>
                 </div>
             </div>

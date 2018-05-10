@@ -4,21 +4,21 @@
     <meta charset="utf-8">
     <title>Mi casa verde</title>
 
-    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/miCasaVerdeGracias.css">
-    <link rel="stylesheet" href="assets/libs/fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-regular.css">
-    <link rel="stylesheet" href="assets/libs/mdl/material.css">
+    <link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/miCasaVerdeGracias.css">
+    <link rel="stylesheet" href="../libs/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="../libs/fontawesome/css/fa-regular.css">
+    <link rel="stylesheet" href="../libs/mdl/material.css">
   </head>
   <body>
     <div class="c-top">
       <div class="mail-logo">
-        <img src="assets/img/logo-mi-casa.svg" alt="logo-mi-casa">
+        <img src="../img/logo-mi-casa.svg" alt="logo-mi-casa">
       </div>
     </div>
     <div class="c-main-gracias">
       <div class="c-img">
-        <img src="assets/img/one-drive/agradecimiento/check-responsive.svg" alt="">
+        <img src="../img/one-drive/agradecimiento/check-responsive.svg" alt="">
       </div>
       <div class="c-gracias-text1 green67 robotoCB fs28">
         <span>¡Gracias por contactarnos José Antonio!</span>
@@ -37,6 +37,6 @@
             <i class="far fa-copyright white"></i>
             <span class="white fs14 robotoR">2018 Mi Casa Verde</span>
         </div>
-    <script src="assets/libs/mdl/material.js"></script>
+    <script src="../libs/mdl/material.js"></script>
   </body>
 </html>

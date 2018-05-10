@@ -4,7 +4,7 @@
 	$telefono=$_POST['tb-tel'];
 
     $mysqli = new mysqli('localhost', 'root', 'root', 'micasaverde');
-    $sql = "INSERT INTO  tbcalcular (nombre, correo, telefono) VALUES ('$nombre', '$corrreo', '$telefono')";
+    $sql = "INSERT INTO  tbinformacion (nombre, correo, telefono) VALUES ('$nombre', '$corrreo', '$telefono')";
     if(mysqli_query( $mysqli , $sql) == TRUE) {
         echo "CORRECTO";
     }else {
