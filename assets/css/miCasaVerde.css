@@ -581,9 +581,9 @@ img {
     width: 20%;
   }
   .marcas-items img {
-    width: 120px;
-    height: 80px;
-    margin: 20px;
+  width: 150px;
+  height: 80px;
+  margin: 35px;
   }
   .c-last-desc {
     width: 55%;
