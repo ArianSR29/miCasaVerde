@@ -51,6 +51,16 @@ $mail->addAddress('jaimeisraels.m@gmail.com');     // Add a recipient*/
     if(!$mail->send()) {
         echo $nombre.' tus datos no fueron enviados, intentalo de nuevo por favor.';
         echo 'Mail error: ' . $mail->ErrorInfo;
+    }else{
+        $nombre=$_POST['tb-nombre'];
+	    $corrreo=$_POST['tb-mail'];
+	    $telefono=$_POST['tb-tel'];
+        $mysqli = new mysqli('localhost', 'root', 'root', 'micasaverde');
+        $sql = "INSERT INTO  cal-ifo (nombre, correo, telefono) VALUES ('$nombre', '$corrreo', '$telefono')";  
+        if(mysqli_query( $mysqli , $sql) == TRUE) {
+        }else {
+        echo "Error INSERTING record: " . $mysqli->error;
     }
-
+    $mysqli->close();     
+    }
 ?>

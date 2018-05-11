@@ -265,12 +265,12 @@ img {
         border: solid 3px #FFDB17 !important;
     }
     /*MDL modificados por Isra*/
-    .mdl-textfield__error{
-      font-family: Roboto-Bold !important;
-      color:#f00 !important;
-      font-size: 14px !important;
-      margin-top: 0px !important;
-      margin-left: 50%;
+    .mdl-textfield__error {
+        font-family: Roboto-Bold !important;
+        color: #f00 !important;
+        font-size: 14px !important;
+        margin-top: 0 !important;
+        margin-left: 50%;
     }
     /* Contenedor de mensaje */
     .c-message {
@@ -429,6 +429,40 @@ img {
     .c-beneficios-main {
         text-align: center;
     }
+    .c-imagenes-main{
+        width: 90%;
+        white-space: nowrap;
+        position: relative;
+        overflow-x: scroll;
+        margin: 40px auto;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+  }
+  ::-moz-scrollbar {
+    display: none;
+} 
+  .imagen-item{
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+        display: inline-flex;
+    }
+    .scroll-slider .imagen-item:last-child {
+        margin-right: 0;
+    }
+    .imagen-item-1{background-image: url('../img/lavadora.jpg')}
+    .imagen-item-2{background-image: url('../img/estufa.jpg')}
+    .imagen-item-3{background-image: url('../img/refrigerador.jpg')}
+    .imagen-item-4{background-image: url('../img/calentador-solar-2.jpg')}
+    .imagen-item-5{background-image: url('../img/foco.jpg')}
+    .imagen-item-6{background-image: url('../img/regadera.jpg')}
+    .imagen-item-7{background-image: url('../img/calentador-calorex.jpg')}
+    .imagen-item{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
 }
 
@@ -562,6 +596,9 @@ img {
     .c-message {
         padding: 0 60px;
     }
+    .c-calc-form h5 {
+        font-size: 22px;
+    }
 }
 
 /* ----------------------------------------CAMBIO------------------------------ */
@@ -682,14 +719,14 @@ img {
     .c-beneficios-main {
         padding: 40px 0;
     }
-    .c-calidad-main{
-      padding: 40px 0px;
+    .c-calidad-main {
+        padding: 40px 0;
     }
-    .c-frase{
-      margin-top: 20px;
+    .c-frase {
+        margin-top: 20px;
     }
-    .marcas-items{
-      width: 90%;
+    .marcas-items {
+        width: 90%;
     }
     .marcas-items img {
         width: 100px;
@@ -706,14 +743,13 @@ img {
     .mdl-button--accent.mdl-button--accent.mdl-button--raised {
         width: 65%;
     }
-    .c-button-info button{
-      width: 30%!important;
+    .c-button-info button {
+        width: 30%!important;
     }
     button#btn-info {
-      width: 30%;
+        width: 30%;
     }
-    }
-
+}
 
 @media only screen and (min-width: 1200px) {
     .c-icons {
@@ -729,8 +765,8 @@ img {
     .c-info-form form {
         width: 70%;
     }
-    .marcas-items{
-      width: 90%;
+    .marcas-items {
+        width: 90%;
     }
     .marcas-items img {
         width: 150px;
@@ -739,13 +775,13 @@ img {
     }
     .c-calc-form h5 {
         text-align: left;
-        padding: 0 190px 0 70px;
+        padding: 0 140px 0 120px;
     }
-    .c-button-info button{
-      width: 25%!important;
+    .c-button-info button {
+        width: 25%!important;
     }
     button#btn-info {
-      width: 35%;
+        width: 35%;
     }
 }
 @media only screen and (min-width: 1440px) {

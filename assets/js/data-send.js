@@ -12,7 +12,7 @@ $(document).ready(function () {
 
             },
             success: function () {
-                window.location.href = "assets/temps/gracias.php";
+                window.location.href =  "assets/temps/gracias.php";
             }
         });
         return false;
@@ -21,7 +21,7 @@ $(document).ready(function () {
     $('#btn-calcular').on("click", function () {
         var datos = $('#form-calcular',).serialize();
         $.ajax({
-            url: "assets/clases/data-insert.php",
+            url: "assets/libs/mail/mail.php",
             type: "POST",
             data: datos,
             beforeSend: function (data, url) {
@@ -38,7 +38,7 @@ $(document).ready(function () {
     $('#btn-info').on("click", function () {
         var datos = $('#form-info',).serialize();
         $.ajax({
-            url: "assets/clases/data-insert-inf.php",
+            url: "assets/libs/mail/mail.php",
             type: "POST",
             data: datos,
             beforeSend: function (data, url) {

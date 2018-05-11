@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,7 +12,7 @@
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-brands.css">
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fa-regular.css">
         <link rel="stylesheet" href="assets/libs/mdl/material.css">
-        <link rel=icon href=favicon.svg sizes="any" type="image/svg+xml">
+        <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml">
     </head>
 
     <body>
@@ -46,34 +45,45 @@
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
                         <form action="" id="form-calcular">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre"
-                                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
-                                placeholder="Nombre"
-                                require="require">
+                                <input
+                                    class="mdl-textfield__input"
+                                    type="text"
+                                    id="tb-nombre"
+                                    name="tb-nombre"
+                                    pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                                    require="require">
                                 <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
                                 <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="emain" id="tb-mail" name="tb-mail"
-                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
-                                placeholder="Correo electrónico"
-                                require="require">
+                                <input
+                                    class="mdl-textfield__input"
+                                    type="emain"
+                                    id="tb-mail"
+                                    name="tb-mail"
+                                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                                    require="require">
                                 <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                                 <span class="mdl-textfield__error">Escribe tu correo correctamente.</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" name="tb-tel" id="tb-tel"
-                                pattern="-?[0-9]*(\.[0-9]+)?"
-                                placeholder="Teléfono (opcional)">
+                                <input
+                                    class="mdl-textfield__input"
+                                    type="text"
+                                    name="tb-tel"
+                                    id="tb-tel"
+                                    pattern="-?[0-9]*(\.[0-9]+)?">
                                 <label class="mdl-textfield__label" for="tb-tel">Teléfono</label>
                                 <span class="mdl-textfield__error">Escribe un numero válido.</span>
                             </div>
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular">Quiero calcular mi ahorro</button>
+                            <button
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                id="btn-calcular">Quiero calcular mi ahorro</button>
                         </form>
                         <div class="c-message">
                             <span class="fs16 robotoR green3A">Convierte tu Casa Verde, cambia productos de
                                 tu hogar por electrodomesticos de bajo consumo y más</span></div>
-                                <div class="c-info-form">
+                        <div class="c-info-form">
                             <h3 class="fs30 robotoCB green3A">¡Te ayudamos a calcular tu Ahorro!</h3>
                             <h5 class="fs19 robotoB white">Reduce al 70% tu presupuesto con Mi Casa Verde</h5>
                             <form action="">
@@ -83,23 +93,26 @@
                                         type="text"
                                         id="tb_nombre"
                                         pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
-                                        placeholder="Nombre"
                                         require="require">
-                                        <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
-                                        <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
+                                    <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
+                                    <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="email" id="tb-mail"
-                                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
-                                    placeholder="Correo electrónico"
-                                    require="require">
+                                    <input
+                                        class="mdl-textfield__input"
+                                        type="email"
+                                        id="tb-mail"
+                                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                                        require="require">
                                     <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                                     <span class="mdl-textfield__error">Escribe tu correo correctamente.</span>
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="text" id="tb-tel"
-                                    pattern="-?[0-9]*(\.[0-9]+)?"
-                                    placeholder="Teléfono (opcional)">
+                                    <input
+                                        class="mdl-textfield__input"
+                                        type="text"
+                                        id="tb-tel"
+                                        pattern="-?[0-9]*(\.[0-9]+)?">
                                     <label class="mdl-textfield__label" for="tb-tel">Teléfono</label>
                                     <span class="mdl-textfield__error">Escribe un numero válido.</span>
                                 </div>
@@ -110,42 +123,56 @@
                     </div>
                 </div>
             </div>
-            <!--------------------------- DESTOP SECCION INICIO ------------------------------>
+            <!--------------------------- DESTOP SECCION INICIO
+            ------------------------------>
             <div class="c-main desktop">
                 <h1 class="robotoCR fs28 white">DISMINUYE
                     <span class="green3A robotoCB">70%</span>
                     TUS PAGOS DE AGUA, LUZ Y GAS</h1>
                 <div class="c-message">
-                    <span class="fs16 robotoR green3A">Convierte tu Casa VERDE, cambia productos de tu hogar por electrodomesticos de bajo consumo, paneles solares, LEDS y muchos más.</span></div>
+                    <span class="fs16 robotoR green3A">Convierte tu Casa VERDE, cambia productos de
+                        tu hogar por electrodomesticos de bajo consumo, paneles solares, LEDS y muchos
+                        más.</span></div>
                 <div class="c-banner">
                     <div class="c-img"><img src="assets/img/home-complete.svg" alt="home-complete"></div>
                     <div class="c-calc-form">
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
                         <form id="form-calcular2">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre"
-                                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
-                                placeholder="Nombre"
-                                require="require">
+                                <input
+                                    class="mdl-textfield__input"
+                                    type="text"
+                                    id="tb-nombre"
+                                    name="tb-nombre"
+                                    pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                                    require="require">
                                 <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
                                 <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-mail"
-                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
-                                placeholder="Correo electrónico"
-                                require="require">
+                                <input
+                                    class="mdl-textfield__input"
+                                    type="email"
+                                    id="tb-mail"
+                                    name="tb-mail"
+                                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                                    require="require">
                                 <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                                 <span class="mdl-textfield__error">Escribe tu correo correctamente.</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="tb-tel" name="tb-tel"
-                                pattern="-?[0-9]*(\.[0-9]+)?"
-                                placeholder="Teléfono (opcional)">
+                                <input
+                                    class="mdl-textfield__input"
+                                    type="text"
+                                    id="tb-tel"
+                                    name="tb-tel"
+                                    pattern="-?[0-9]*(\.[0-9]+)?">
                                 <label class="mdl-textfield__label" for="tb-tel">Teléfono</label>
                                 <span class="mdl-textfield__error">Escribe un numero válido.</span>
                             </div>
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular2">Quiero calcular mi ahorro</button>
+                            <button
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                id="btn-calcular2">Quiero calcular mi ahorro</button>
                         </form>
                         <div id="ancla-ahorro"></div>
                     </div>
@@ -155,30 +182,41 @@
                     <h5 class="fs20 robotoB white">Reduce al 70% tu presupuesto con Mi Casa Verde</h5>
                     <form id="form-info">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre"
-                            pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
-                            placeholder="Nombre"
-                            require="require">
+                            <input
+                                class="mdl-textfield__input"
+                                type="text"
+                                id="tb-nombre"
+                                name="tb-nombre"
+                                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                                require="require">
                             <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
                             <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-mail"
-                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
-                            placeholder="Correo electrónico"
-                            require="require">
+                            <input
+                                class="mdl-textfield__input"
+                                type="email"
+                                id="tb-mail"
+                                name="tb-mail"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                                require="require">
                             <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
                             <span class="mdl-textfield__error">Escribe tu correo correctamente.</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="" id="tb-tel" name="tb-tel"
-                            pattern="-?[0-9]*(\.[0-9]+)?"
-                            placeholder="Teléfono (opcional)">
+                            <input
+                                class="mdl-textfield__input"
+                                type=""
+                                id="tb-tel"
+                                name="tb-tel"
+                                pattern="-?[0-9]*(\.[0-9]+)?">
                             <label class="mdl-textfield__label" for="tb-tel">Teléfono</label>
                             <span class="mdl-textfield__error">Escribe un numero válido.</span>
                         </div>
                         <button
-                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn" type="submit" id="btn-info">Deseo más información</button>
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn"
+                            type="submit"
+                            id="btn-info">Deseo más información</button>
                     </form>
                     <div id="ancla-ahorro"></div>
                 </div>
@@ -224,7 +262,8 @@
                 </div>
                 <div class="c-button-info">
                     <button
-                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn" id="btn-info-ancla">Deseo más información</button>
+                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn"
+                        id="btn-info-ancla">Deseo más información</button>
                 </div>
             </div>
 
@@ -241,6 +280,15 @@
                     <label for="rd-luz">Ahorra Luz</label>
                     <input type="radio" name="comprado-sel" id="rd-gas">
                     <label for="rd-gas">Ahorra Gas</label>
+                </div>
+                <div class="c-imagenes-main">
+                    <div class="imagen-item imagen-item-1"></div>
+                    <div class="imagen-item imagen-item-2"></div>
+                    <div class="imagen-item imagen-item-3"></div>
+                    <div class="imagen-item imagen-item-4"></div>
+                    <div class="imagen-item imagen-item-5"></div>
+                    <div class="imagen-item imagen-item-6"></div>
+                    <div class="imagen-item imagen-item-7"></div>
                 </div>
             </div>
             <div class="c-marcas">

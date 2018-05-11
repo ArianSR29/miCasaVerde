@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/miCasaVerdeGracias.css">
     <link rel="stylesheet" href="../libs/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="../libs/fontawesome/css/fa-regular.css">
+    <link rel="icon" href="../../favicon.svg" sizes="any" type="image/svg+xml">    
   </head>
   <body>
     <div class="c-top">
@@ -26,10 +27,10 @@
         <span>Hemos recibido su mensaje, y nos pondremos en contacto lo antes posible.</span>
       </div>
       <div class="c-button-gracias">
-        <a class="button-gracias">Regresar</a>
+        <a href="../../index.php" class="button-gracias">Regresar</a>
       </div>
       <div class="c-info">
-          <a class="info green66 robotoB" href="https://www.gasticom.mx/quienes_somos.html" >Más información</a>
+          <a class="info green66 robotoB" href="http://www.micasaverde.mx/" >Más información</a>
         </div>
         <!--copyRight-->
         <div class="c-copyright">

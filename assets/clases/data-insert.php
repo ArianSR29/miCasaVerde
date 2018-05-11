@@ -4,11 +4,8 @@
 	$telefono=$_POST['tb-tel'];
 
     $mysqli = new mysqli('localhost', 'root', 'root', 'micasaverde');
-    $sql = "INSERT INTO  tbcalcular (nombre, correo, telefono) VALUES ('$nombre', '$corrreo', '$telefono')";
-    require_once '../libs/mail/mail.php';    
+    $sql = "INSERT INTO  tbcalcular (nombre, correo, telefono) VALUES ('$nombre', '$corrreo', '$telefono')";  
     if(mysqli_query( $mysqli , $sql) == TRUE) {
-        echo "CORRECTO";
-        require_once '../libs/mail/mail.php';
     }else {
         echo "Error INSERTING record: " . $mysqli->error;
     }
