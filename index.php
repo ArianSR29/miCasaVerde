@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Mi casa verde | LP</title>
-        <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
 
         <link rel="stylesheet" href="assets/css/miCasaVerde.css">
         <link rel="stylesheet" href="assets/libs/fontawesome/css/fontawesome.css">
@@ -37,7 +36,7 @@
                 </div>
             </div>
             <!-- SECCION PRINCIPAL PARA EL DEGARDADO -->
-            <div class="c-main mobile"> 
+            <div class="c-main mobile">
                 <h1 class="robotoCR fs28 white">DISMINUYE
                     <span class="green3A robotoCB">70%</span>
                     TUS PAGOS DE AGUA, LUZ Y GAS</h1>
@@ -47,16 +46,27 @@
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
                         <form action="" id="form-calcular">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre" require="require">
+                                <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre"
+                                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                                placeholder="Nombre"
+                                require="require">
                                 <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
+                                <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="emain" id="tb-mail" name="tb-mail" require="require">
+                                <input class="mdl-textfield__input" type="emain" id="tb-mail" name="tb-mail"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                                placeholder="Correo electrónico"
+                                require="require">
                                 <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
+                                <span class="mdl-textfield__error">Escribe tu correo correctamente.</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="tel" name="tb-tel" id="tb-tel">
-                                <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
+                                <input class="mdl-textfield__input" type="text" name="tb-tel" id="tb-tel"
+                                pattern="-?[0-9]*(\.[0-9]+)?"
+                                placeholder="Teléfono (opcional)">
+                                <label class="mdl-textfield__label" for="tb-tel">Teléfono</label>
+                                <span class="mdl-textfield__error">Escribe un numero válido.</span>
                             </div>
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular">Quiero calcular mi ahorro</button>
                         </form>
@@ -72,20 +82,30 @@
                                         class="mdl-textfield__input"
                                         type="text"
                                         id="tb_nombre"
+                                        pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                                        placeholder="Nombre"
                                         require="require">
-                                    <label class="mdl-textfield__label" for="tb_nombre">Nombre</label>
+                                        <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
+                                        <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="email" id="tb-mail" require="require">
+                                    <input class="mdl-textfield__input" type="email" id="tb-mail"
+                                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                                    placeholder="Correo electrónico"
+                                    require="require">
                                     <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
+                                    <span class="mdl-textfield__error">Escribe tu correo correctamente.</span>
                                 </div>
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="tel" id="tb-tel">
-                                    <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
+                                    <input class="mdl-textfield__input" type="text" id="tb-tel"
+                                    pattern="-?[0-9]*(\.[0-9]+)?"
+                                    placeholder="Teléfono (opcional)">
+                                    <label class="mdl-textfield__label" for="tb-tel">Teléfono</label>
+                                    <span class="mdl-textfield__error">Escribe un numero válido.</span>
                                 </div>
                                 <button
                                     class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn">Deseo más información</button>
-                            </form>                         
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -103,16 +123,27 @@
                         <h5 class="fs16 robotoB white">Nosotros te asesoramos para convertir tu Casa Verde.</h5>
                         <form id="form-calcular2">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre" require="require">
+                                <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre"
+                                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                                placeholder="Nombre"
+                                require="require">
                                 <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
+                                <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-mail" require="require">
+                                <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-mail"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                                placeholder="Correo electrónico"
+                                require="require">
                                 <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
+                                <span class="mdl-textfield__error">Escribe tu correo correctamente.</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="tel" id="tb-tel" name="tb-tel">
-                                <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
+                                <input class="mdl-textfield__input" type="text" id="tb-tel" name="tb-tel"
+                                pattern="-?[0-9]*(\.[0-9]+)?"
+                                placeholder="Teléfono (opcional)">
+                                <label class="mdl-textfield__label" for="tb-tel">Teléfono</label>
+                                <span class="mdl-textfield__error">Escribe un numero válido.</span>
                             </div>
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="btn-calcular2">Quiero calcular mi ahorro</button>
                         </form>
@@ -124,19 +155,30 @@
                     <h5 class="fs20 robotoB white">Reduce al 70% tu presupuesto con Mi Casa Verde</h5>
                     <form id="form-info">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre" require="require">
+                            <input class="mdl-textfield__input" type="text" id="tb-nombre" name="tb-nombre"
+                            pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                            placeholder="Nombre"
+                            require="require">
                             <label class="mdl-textfield__label" for="tb-nombre">Nombre</label>
+                            <span class="mdl-textfield__error">Escribe tu nombre correctamente.</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-mail" require="require">
+                            <input class="mdl-textfield__input" type="email" id="tb-mail" name="tb-mail"
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                            placeholder="Correo electrónico"
+                            require="require">
                             <label class="mdl-textfield__label" for="tb-mail">Correo electrónico</label>
+                            <span class="mdl-textfield__error">Escribe tu correo correctamente.</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="tel" id="tb-tel" name="tb-tel">
-                            <label class="mdl-textfield__label" for="tb-tel">Teléfono (opcional)</label>
+                            <input class="mdl-textfield__input" type="" id="tb-tel" name="tb-tel"
+                            pattern="-?[0-9]*(\.[0-9]+)?"
+                            placeholder="Teléfono (opcional)">
+                            <label class="mdl-textfield__label" for="tb-tel">Teléfono</label>
+                            <span class="mdl-textfield__error">Escribe un numero válido.</span>
                         </div>
                         <button
-                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn" id="btn-info">Deseo más información</button>
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent info-btn" type="submit" id="btn-info">Deseo más información</button>
                     </form>
                     <div id="ancla-ahorro"></div>
                 </div>

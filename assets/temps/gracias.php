@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Mi casa verde</title>
 
-    <link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon">
+    <link rel=icon href=favicon.svg sizes="any" type="image/svg+xml">
     <link rel="stylesheet" href="../css/miCasaVerdeGracias.css">
     <link rel="stylesheet" href="../libs/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="../libs/fontawesome/css/fa-regular.css">
