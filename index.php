@@ -255,7 +255,7 @@
             <!--Imcorpora Ecotecnologías de calidad-->
             <div class="c-calidad-main">
                 <img
-                    src="assets/img/one-drive/logo-mi-casa-blanco.svg"
+                    src="assets/img/logo-blanco-micasa.svg"
                     alt="logo-mi-casa-blanco">
                 <div class="c-frase">
                     <span class="robotoB fs26 white">¡Incorpora Ecotecnologías de Calidad!</span>
@@ -281,14 +281,41 @@
                     <input type="radio" name="comprado-sel" id="rd-gas">
                     <label for="rd-gas">Ahorra Gas</label>
                 </div>
-                <div class="c-imagenes-main">
-                    <div class="imagen-item imagen-item-1"></div>
-                    <div class="imagen-item imagen-item-2"></div>
-                    <div class="imagen-item imagen-item-3"></div>
-                    <div class="imagen-item imagen-item-4"></div>
-                    <div class="imagen-item imagen-item-5"></div>
-                    <div class="imagen-item imagen-item-6"></div>
-                    <div class="imagen-item imagen-item-7"></div>
+                <div class="c-imagenes-main poupulares">
+                    <div class="imagen-item imagen-item-pop-1"></div>
+                    <div class="imagen-item imagen-item-pop-2"></div>
+                    <div class="imagen-item imagen-item-pop-3"></div>
+                    <div class="imagen-item imagen-item-pop-4"></div>
+                    <div class="imagen-item imagen-item-pop-5"></div>
+                    <div class="imagen-item imagen-item-pop-6"></div>
+                    <div class="imagen-item imagen-item-pop-7"></div>
+                </div>
+                <div class="c-imagenes-main  ahorradores-agua">
+                    <div class="imagen-item imagen-item-ahoagu-1"></div>
+                    <div class="imagen-item imagen-item-ahoagu-2"></div>
+                    <div class="imagen-item imagen-item-ahoagu-3"></div>
+                    <div class="imagen-item imagen-item-ahoagu-4"></div>
+                    <div class="imagen-item imagen-item-ahoagu-5"></div>
+                    <div class="imagen-item imagen-item-ahoagu-6"></div>
+                    <div class="imagen-item imagen-item-ahoagu-7"></div>
+                </div>
+                <div class="c-imagenes-main  ahorradores-gas">
+                    <div class="imagen-item imagen-item-ahogas-1"></div>
+                    <div class="imagen-item imagen-item-ahogas-2"></div>
+                    <div class="imagen-item imagen-item-ahogas-3"></div>
+                    <div class="imagen-item imagen-item-ahogas-4"></div>
+                    <div class="imagen-item imagen-item-ahogas-5"></div>
+                    <div class="imagen-item imagen-item-ahogas-6"></div>
+                    <div class="imagen-item imagen-item-ahogas-7"></div>
+                </div>
+                <div class="c-imagenes-main  ahorradores-luz">
+                    <div class="imagen-item imagen-item-aholuz-1"></div>
+                    <div class="imagen-item imagen-item-aholuz-2"></div>
+                    <div class="imagen-item imagen-item-aholuz-3"></div>
+                    <div class="imagen-item imagen-item-aholuz-4"></div>
+                    <div class="imagen-item imagen-item-aholuz-5"></div>
+                    <div class="imagen-item imagen-item-aholuz-6"></div>
+                    <div class="imagen-item imagen-item-aholuz-7"></div>
                 </div>
             </div>
             <div class="c-marcas">

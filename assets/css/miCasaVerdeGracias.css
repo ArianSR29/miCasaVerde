@@ -45,9 +45,18 @@
 .fs28 {
   font-size: 28px;
 }
+.fs26 {
+  font-size: 26px;
+}
+.fs24 {
+  font-size: 24px;
+}
 
 .fs30 {
   font-size: 30px;
+}
+.fs48 {
+  font-size: 48px;
 }
 
 .white {
@@ -103,81 +112,54 @@ img {
 /*------------------------------------------------R E S P O N S I V E------------------------------------------------*/
 
 @media only screen and ( min-width: 320px) {
-  .c-top {
-    width: 100%;
-    background-image: url('../img/one-drive/menu.png');
-    background-position: center;
+  header{
+    text-align: center;
+    padding: 20px 0px 40px;
+    background-image: url('../img//pleca-desktop.svg');
     background-size: cover;
-    align-items: center;
-    padding: 5px 0px 30px 0px;
-    z-index: 100;
-    text-align: center;
+    background-position: center;
   }
-  .button-gracias {
-    font-size: 20px !important;
-    font-family: Roboto-Bold;
-    border-radius: 7px;
-    line-height: 50px;
-    background-color: #82CBD6;
-    color: #fff;
-    width: 100%;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 12px 35%;
+  header img{
+    width: 30%;
   }
-  .button-gracias:hover {
-    background-color: #fff;
-    border: solid 3px #82CBD6;
-    color: #82CBD6;
-  }
-  .mail-logo {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .mail-logo img {
-    width: 50%;
-  }
-  .c-info {
-    width: 50%;
-    margin: 15px auto 0px;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 175px;
-  }
-  .info {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  .c-main-gracias {
-    width: 100%;
-    background-image: url('../img/one-drive/agradecimiento/plantas-responsive.svg');
-    background-position: bottom;
+  body{
+    background-image: url(../img/plantas.svg);
+    background-size: 170%;
     background-repeat: no-repeat;
-    background-size: 135% 100%;
-    padding-top: 20px;
-    text-align: center;
-    background-position-y: 180px;
-  }
-  .c-img {
-    width: 25%;
-    margin: 0 auto 20px;
-  }
-  .c-img img {
+    background-position: 50% 80%;
     width: 100%;
+    height: 100vh;
+    text-align: center;
   }
-  .c-gracias-text1 {
-    width: 90%;
-    margin: 0 auto;
-    line-height: 30px;
+  .checked{
+    width: 25%;
+    margin: 20px 0px;
+
   }
-  .c-gracias-text2 {
-    width: 80%;
-    margin: 15px auto;
-    line-height: 20px;
+  .c-reg{
+    margin-top: 50px;
   }
-  .c-button-gracias {
-    width: 85%;
-    margin: 0 auto;
+  .a-reg{
+    background: #82CBD6;
+    padding: 10px 150px;
+    border-radius: 10px;
+  }
+  .c-more{
+    margin-top: 30px;
+  }
+  .c-more a{
+    text-decoration: underline;
+  }
+  .c-title{
+    margin-top: 30px;
+  }
+  .c-title span{
+    font-size: 80px!important;
+  }
+  .c-title p{
+    margin-top: 10px;
+    font-size: 30px!important;
+    
   }
   .c-copyright {
     width: 100%;
@@ -185,102 +167,40 @@ img {
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-  }
+    position: absolute;
+    bottom: 0px;
 }
-
+}
 @media only screen and ( min-width: 380px) {}
-
-@media only screen and ( min-width: 479px) {}
-
+@media only screen and ( min-width: 480px) {
+  .checked {
+    width: 20%;
+    margin: 0;
+}
+}
 @media only screen and ( min-width: 680px) {
-  .mail-logo img {
-    width: 35%;
+  .c-title span{
+    font-size: 67px!important;
   }
-  .c-info {
-    padding-bottom: 330px;
-  }
-  .c-img {
-    width: 25%;
-    margin: 0 auto 20px;
-  }
-  .button-gracias {
-    padding: 12px 115px;
-  }
-}
-
-/* ----------------------------------------CAMBIO DEL TAMAÑO DE FUENTES------------------------------ */
-
-@media only screen and ( min-width: 801px) {
-  .mail-logo img {
-    width: 30%;
-  }
-  .c-info {
-    padding-bottom: 300px;
-  }
-  .c-img {
-    width: 15%;
-    margin: 0 auto 20px;
-  }
-  .c-gracias-text1 span {
-    font-size: 48px;
-  }
-  .c-gracias-text2 span {
-    font-size: 26px;
-  }
-}
-
-/* ----------------------------------------CAMBIO------------------------------ */
-
-@media only screen and ( min-width: 1025px) {
-  .mail-logo img {
-    width: 25%;
-  }
-  .c-img {
-    width: 12%;
-  }
-  .c-main-gracias {
-    background-image: url('../img/one-drive/agradecimiento/plantas.svg');
-    background-size: 135% 100%;
-    background-position-y: 180px;
-  }
-}
-
-@media only screen and ( min-width: 1201px) {
-  .mail-logo img {
-    width: 20%;
-    margin-bottom: 10px;
-  }
-  .c-img {
-    width: 9%;
-  }
-  .c-main-gracias {
-    background-size: 100% 125%;
-    background-position-y: 90px;
-  }
-  .button-gracias {
-    padding: 12px 170px;
-  }
-}
-
-@media only screen and ( min-width: 1439px) {}
-
-@media only screen and ( min-width: 1920px) {
-  .mail-logo img {
-    width: 20%;
-    margin-bottom: 20px;
-  }
-  .c-img {
+  .checked {
     width: 10%;
-  }
-  .c-main-gracias {
-    background-size: 120% 145%;
-    background-position-y: 50px;
-    padding-top: 63px;
-  }
-  .button-gracias {
-    padding: 12px 170px;
-  }
-  .c-info {
-    padding-bottom: 600px;
 }
 }
+/* ----------------------------------------CAMBIO DEL TAMAÑO DE FUENTES------------------------------ */
+@media only screen and ( min-width: 800px) {
+  header img {
+    width: 20%;
+}
+}
+/* ----------------------------------------CAMBIO------------------------------ */
+@media only screen and ( min-width: 1024px) {}
+@media only screen and ( min-width: 1200px) {
+  header img {
+    width: 15%;
+}
+body{
+  background-size: 60%;
+}
+}
+@media only screen and ( min-width: 1440px) {}
+@media only screen and ( min-width: 1920px) {}

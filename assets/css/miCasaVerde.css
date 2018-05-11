@@ -451,13 +451,38 @@ img {
     .scroll-slider .imagen-item:last-child {
         margin-right: 0;
     }
-    .imagen-item-1{background-image: url('../img/lavadora.jpg')}
-    .imagen-item-2{background-image: url('../img/estufa.jpg')}
-    .imagen-item-3{background-image: url('../img/refrigerador.jpg')}
-    .imagen-item-4{background-image: url('../img/calentador-solar-2.jpg')}
-    .imagen-item-5{background-image: url('../img/foco.jpg')}
-    .imagen-item-6{background-image: url('../img/regadera.jpg')}
-    .imagen-item-7{background-image: url('../img/calentador-calorex.jpg')}
+
+    .imagen-item-pop-1{background-image: url('../img/lavadora.jpg')}
+    .imagen-item-pop-2{background-image: url('../img/estufa.jpg')}
+    .imagen-item-pop-3{background-image: url('../img/refrigerador.jpg')}
+    .imagen-item-pop-4{background-image: url('../img/calentador-solar-2.jpg')}
+    .imagen-item-pop-5{background-image: url('../img/foco.jpg')}
+    .imagen-item-pop-6{background-image: url('../img/regadera.jpg')}
+    .imagen-item-pop-7{background-image: url('../img/calentador-calorex.jpg')}
+
+    .imagen-item-ahoagu-1{background-image: url('../img/AhorradoresAgua/inodoro-ecologico.jpg')}
+    .imagen-item-ahoagu-2{background-image: url('../img/AhorradoresAgua/lavadora.jpg')}
+    .imagen-item-ahoagu-3{background-image: url('../img/AhorradoresAgua/llave.jpg')}
+    .imagen-item-ahoagu-4{background-image: url('../img/AhorradoresAgua/llave-2.jpg')}
+    .imagen-item-ahoagu-5{background-image: url('../img/AhorradoresAgua/mezcladora.jpg')}
+    .imagen-item-ahoagu-6{background-image: url('../img/AhorradoresAgua/regadera.jpg')}
+    .imagen-item-ahoagu-7{background-image: url('../img/AhorradoresAgua/regadera-ahorradora.jpg')}
+
+    .imagen-item-ahogas-1{background-image: url('../img/AhorradoresGas/calentador-calorex.jpg')}
+    .imagen-item-ahogas-2{background-image: url('../img/AhorradoresGas/calentador-de-paso.jpg')}
+    .imagen-item-ahogas-3{background-image: url('../img/AhorradoresGas/calentador-gas-2.jpg')}
+    .imagen-item-ahogas-4{background-image: url('../img/AhorradoresGas/calentador-solar-2.jpg')}
+    .imagen-item-ahogas-5{background-image: url('../img/AhorradoresGas/calentador-solar-plano.jpg')}
+    .imagen-item-ahogas-6{background-image: url('../img/AhorradoresGas/estufa.jpg')}
+    .imagen-item-ahogas-7{background-image: url('../img/AhorradoresGas/estufa-acros.jpg')}
+
+    .imagen-item-aholuz-1{background-image: url('../img/AhorradoresLuz/aireacondicionado.jpg')}
+    .imagen-item-aholuz-2{background-image: url('../img/AhorradoresLuz/foco.jpg')}
+    .imagen-item-aholuz-3{background-image: url('../img/AhorradoresLuz/lampara-flourecente.jpg')}
+    .imagen-item-aholuz-4{background-image: url('../img/AhorradoresLuz/optimizador-de-tension.jpg')}
+    .imagen-item-aholuz-5{background-image: url('../img/AhorradoresLuz/refrigerador.jpg')}
+    .imagen-item-aholuz-6{background-image: url('../img/AhorradoresLuz/refrigerador-daewoo.jpg')}
+    .imagen-item-aholuz-7{background-image: url('../img/AhorradoresLuz/refrigerador-whirlpool.jpg')}
     .imagen-item{
         background-size: cover;
         background-repeat: no-repeat;
