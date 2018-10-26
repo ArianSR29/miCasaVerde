@@ -1,52 +1,88 @@
 $(document).ready(function () {
-    $('#btn-calcular2').on("click", function () {
-        var datos = $('#form-calcular2',).serialize();
+    $('#form-calcular-movil').on("submit", function () {
+        var datos = $('#form-calcular-movil').serialize();
+        var nombre = $('.nombre').val();
         $.ajax({
-            //url: "assets/clases/data-insert.php",
             url: "assets/libs/mail/mail.php",
             type: "POST",
             data: datos,
-            beforeSend: function () {
-                console.log("Procesando, espere por favor...");
-                //$("#res").html("Procesando, espere por favor...");
+            beforeSend: function (datos, data) {
+                console.log("Procesando");
+                console.log(datos);
+                console.log(data);
+            },
+            error: function() {
+                console.log("No se ha podido obtener la información");
+            },
+            success: function () {
+                window.location.href = "assets/temps/gracias.php?nombre=" + nombre;
+            }
+        });
+        return false;
+    });
 
-            },
-            success: function () {
-                window.location.href =  "assets/temps/gracias.php";
-            }
-        });
-        return false;
-    });
-    // -----------------------------------------------------------------------------------------------------------
-    $('#btn-calcular').on("click", function () {
-        var datos = $('#form-calcular',).serialize();
+
+    $('#form-info-movil').on("submit", function () {
+        var datos = $('#form-info-movil').serialize();
+        var nombre = $('.nombre-info-movil').val();
         $.ajax({
             url: "assets/libs/mail/mail.php",
             type: "POST",
             data: datos,
-            beforeSend: function (data, url) {
-                console.log("Procesando, espere por favor...");
-                //$("#res").html("Procesando, espere por favor...");
+            beforeSend: function (datos, data) {
+                console.log("Procesando");
+                console.log(datos);
+                console.log(data);
+            },
+            error: function() {
+                console.log("No se ha podido obtener la información");
             },
             success: function () {
-                window.location.href = "assets/temps/gracias.php";
+                window.location.href = "assets/temps/gracias.php?nombre=" + nombre;
             }
         });
         return false;
     });
-    // --------------------------------------------------------------------------------------------------------
-    $('#btn-info').on("click", function () {
-        var datos = $('#form-info',).serialize();
+
+    $('#form-calcular-desktop').on("submit", function () {
+        var datos = $('#form-calcular-desktop').serialize();
+        var nombre = $('.nombre-calcular-desktop').val();
         $.ajax({
             url: "assets/libs/mail/mail.php",
             type: "POST",
             data: datos,
-            beforeSend: function (data, url) {
-                console.log("Procesando, espere por favor...");
-                //$("#res").html("Procesando, espere por favor...");
+            beforeSend: function (datos, data) {
+                console.log("Procesando");
+                console.log(datos);
+                console.log(data);
+            },
+            error: function() {
+                console.log("No se ha podido obtener la información");
             },
             success: function () {
-                window.location.href = "assets/temps/gracias.php";
+                window.location.href = "assets/temps/gracias.php?nombre=" + nombre;
+            }
+        });
+        return false;
+    });
+
+    $('#form-info-desktop').on("submit", function () {
+        var datos = $('#form-info-desktop').serialize();
+        var nombre = $('.nombre-info-desktop').val();
+        $.ajax({
+            url: "assets/libs/mail/mail.php",
+            type: "POST",
+            data: datos,
+            beforeSend: function (datos, data) {
+                console.log("Procesando");
+                console.log(datos);
+                console.log(data);
+            },
+            error: function() {
+                console.log("No se ha podido obtener la información");
+            },
+            success: function () {
+                window.location.href = "assets/temps/gracias.php?nombre=" + nombre;
             }
         });
         return false;
